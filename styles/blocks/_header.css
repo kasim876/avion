@@ -20,18 +20,18 @@
     color: #726e8d;
 }
 
-.header__icons {
+.header__buttons {
     display: flex;
     gap: 16px;
 
 }
 
-.icon-button {
+.header__button {
     width: 16px;
     height: 16px;
 }
 
-.icon-button__image {
+.header__button-icon {
     display: block;
     width: 100%;
     height: 100%;
