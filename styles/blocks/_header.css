@@ -1,5 +1,9 @@
-.header__top {
+.header__container {
     display: flex;
+}
+
+.header__top {
+    align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
 }
@@ -7,15 +11,15 @@
 .header__actions {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
-.nav__list {
+.header__list {
     display: flex;
-    gap: 32px;
-    margin-right: 50px;
+    gap: 30px;
 }
 
-.nav__link {
+.header__link {
     font-size: 16px;
     color: #726e8d;
 }
@@ -23,7 +27,6 @@
 .header__buttons {
     display: flex;
     gap: 16px;
-
 }
 
 .header__button {
@@ -38,7 +41,6 @@
 }
 
 .header__bottom {
-    display: flex;
     justify-content: center;
     padding: 20px;
     background-color: var(--light-grey);
