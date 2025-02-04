@@ -41,6 +41,10 @@
     background: var(--light-grey);
 }
 
+.about__button--white {
+    background-color: var(--white);
+}
+
 .hero__image {
     max-width: 100%;
     height: auto;
