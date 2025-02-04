@@ -45,7 +45,11 @@
     background-color: var(--white);
 }
 
-.hero__image {
+.about__image-wrapper {
+    flex-shrink: 0;
+}
+
+.about__image {
     max-width: 100%;
     height: auto;
 }
