@@ -19,7 +19,6 @@
 
 .about__content--right {
     padding-right: max(15px, calc((100% - 1280px) / 2));
-    padding-left: 50px;
 }
 
 .about__content--grey {
@@ -47,15 +46,6 @@
 
 .about__button {
     margin-top: auto;
-    padding: 10px 32px;
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--dark-primary);
-    background: var(--light-grey);
-}
-
-.about__button--white {
-    background-color: var(--white);
 }
 
 .about__image-wrapper {

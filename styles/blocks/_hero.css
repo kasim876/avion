@@ -26,13 +26,7 @@
 }
 
 .hero__button {
-    display: inline-block;
     margin-bottom: 40px;
-    padding: 16px 32px;
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--white);
-    background-color: rgba(249, 249, 249, 0.15);
 }
 
 .hero__description {

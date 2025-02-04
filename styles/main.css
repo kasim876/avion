@@ -2,6 +2,7 @@
 
 /* блоки */
 @import url('./blocks/_social.css');
+@import url('./blocks/_btn.css');
 
 /* index.html */
 @import url('./blocks/_header.css');
