@@ -228,10 +228,10 @@
                 <h2 class="title title--xlarge title--center newsletter__title">Join the club and get the benefits</h2>
                 <p class="newsletter__description">Sign up for our newsletter and receive exclusive offers on new
                     ranges, sales, pop up stores and more.</p>
-                <form action="#" class="newsletter__form">
-                    <input type="email" class="input-reset newsletter__input" placeholder="your@email.com"
+                <form action="#" method="POST" class="form newsletter__form">
+                    <input type="email" class="input-reset form__input" placeholder="your@email.com" required
                         aria-label="Enter your email address">
-                    <button type="submit" class="button button--dark newsletter__button">Sign up</button>
+                    <button type="submit" class="button button--dark form__button">Sign up</button>
                 </form>
             </div>
         </section>
@@ -239,17 +239,19 @@
             <div class="about__container">
                 <!-- Левая часть: текст и кнопка -->
                 <div class="about__content about__content--left">
-                    <h2 class="title title--medium about__title">From a studio in London to a global brand with over 400 outlets</h1>
-                    <p class="about__description">
-                        When we started Avion, the idea was simple. Make high quality furniture affordable and available
-                        for the mass market.
-                    </p>
-                    <p class="about__description">
-                        Handmade, and lovingly crafted furniture and homeware is what we live,
-                        breathe and design so our Chelsea boutique become the hotbed for the London interior design
-                        community.
-                    </p>
-                    <a href="#" class="button button--grey about__button">Get in touch</a>
+                    <h2 class="title title--medium about__title">From a studio in London to a global brand with over 400
+                        outlets</h1>
+                        <p class="about__description">
+                            When we started Avion, the idea was simple. Make high quality furniture affordable and
+                            available
+                            for the mass market.
+                        </p>
+                        <p class="about__description">
+                            Handmade, and lovingly crafted furniture and homeware is what we live,
+                            breathe and design so our Chelsea boutique become the hotbed for the London interior design
+                            community.
+                        </p>
+                        <a href="#" class="button button--grey about__button">Get in touch</a>
                 </div>
 
                 <!-- Правая часть: картинка -->
@@ -325,11 +327,12 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="footer__form-wrapper">
+                <div class="footer__form">
                     <h3 class="footer__subtitle">Join our mailing list</h3>
-                    <form action="#" class="footer__form">
-                        <input type="email" class="input-reset footer__input" placeholder="your@email.com">
-                        <button class="button button--white footer__button">Sign up</button>
+                    <form action="#" method="POST" class="form">
+                        <input type="email" class="input-reset form__input form__input--transparent"
+                            placeholder="your@email.com" required aria-label="Enter your email address">
+                        <button type="submit" class="button button--white form__button">Sign up</button>
                     </form>
                 </div>
             </div>
