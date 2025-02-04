@@ -11,6 +11,10 @@
 }
 
 .products__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     grid-column: 3 span;
 }
 
@@ -29,13 +33,18 @@
 }
 
 .products__name {
-    margin: 0;
     margin-bottom: 8px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
     color: var(--dark-primary);
+}
+
+.products__name::after {
+    content: "";
+    position: absolute;
+    inset: 0;
 }
 
 .products__price {
