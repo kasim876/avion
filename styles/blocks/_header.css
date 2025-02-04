@@ -24,6 +24,16 @@
     color: #726e8d;
 }
 
+@media (any-hover: hover) {
+    .header__link:hover {
+        color: var(--primary);
+    }
+}
+
+.header__link:active {
+    color: var(--dark-primary);
+}
+
 .header__buttons {
     display: flex;
     gap: 16px;

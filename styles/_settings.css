@@ -119,3 +119,12 @@ img {
     padding: 0;
     list-style: none;
 }
+
+.focus-visible:focus {
+    outline: none;
+}
+
+.focus-visible:focus-visible {
+    outline: 2px dashed currentColor;
+    outline-offset: 2px;
+}
