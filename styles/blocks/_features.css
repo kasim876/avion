@@ -3,14 +3,7 @@
 }
 
 .features__title {
-    margin: 0;
     margin-bottom: 50px;
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-    color: var(--dark-primary);
-    text-align: center;
 }
 
 .features__item {

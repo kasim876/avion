@@ -9,14 +9,7 @@
 }
 
 .newsletter__title {
-    margin: 0;
     margin-bottom: 16px;
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 140%;
-    text-align: center;
-    color: var(--dark-primary);
 }
 
 .newsletter__description {

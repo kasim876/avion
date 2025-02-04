@@ -3,6 +3,7 @@
 /* блоки */
 @import url('./blocks/_social.css');
 @import url('./blocks/_btn.css');
+@import url('./blocks/_title.css');
 
 /* index.html */
 @import url('./blocks/_header.css');
