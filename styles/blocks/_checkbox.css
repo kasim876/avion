@@ -1,0 +1,40 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox__input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.checkbox__custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox__input:checked + .checkbox__custom {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Показ галочки при активации */
+/* .checkbox__input:checked~.checkbox__custom::after {
+    display: block;
+} */
+
+/* Элемент checkbox__label */
+.checkbox__label {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark-primary);
+}
