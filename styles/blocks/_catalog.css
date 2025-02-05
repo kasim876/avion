@@ -1,0 +1,21 @@
+.catalog__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.catalog__filters {
+    padding: 40px 80px;
+    width: 25%;
+}
+
+.catalog__products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 75%;
+}
+
+.catalog__products-grid {
+    margin-bottom: 32px;
+}
