@@ -1,0 +1,13 @@
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.products-grid__item {
+    grid-column: 3 span;
+}
+
+.products-grid__item--large {
+    grid-column: 6 span;
+}
