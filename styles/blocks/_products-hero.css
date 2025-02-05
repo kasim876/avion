@@ -1,0 +1,16 @@
+.products-hero {
+    background-image: url('../../img/products-hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.products-hero__title {
+    margin: 0;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    color: var(--white);
+}

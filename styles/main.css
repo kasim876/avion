@@ -18,3 +18,6 @@
 /* about.html */
 @import url('./blocks/_about-hero.css');
 @import url('./blocks/_story.css');
+
+/* products.html */
+@import url('./blocks/_products-hero.css');
