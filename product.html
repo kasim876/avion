@@ -58,241 +58,103 @@
         </div>
     </header>
     <main>
-        <section class="products-hero">
-            <div class="container">
-                <h1 class="products-hero__title">All products</h1>
+        
+        <section class="products">
+            <div class="products__container container">
+                <h2 class="title title--large products__title">Our popular products</h2>
+
+                <ul class="list-reset products-grid products__list">
+                    <li class="products-grid__item products-grid__item--large">
+                        <article class="product">
+                            <div class="product__image-wrapper">
+                                <img src="./img/popular-sofa.jpg" alt="The Dandy chair" class="product__image" width="630"
+                                    height="375">
+                            </div>
+                            <a href="/" class="product__name">The Poplar suede sofa</a>
+                            <span class="product__price">£980</span>
+                        </article>
+                    </li>
+
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image-wrapper">
+                                <img src="./img/dandy-chair.jpg" alt="Rustic Vase Set" class="product__image" width="305"
+                                    height="317">
+                            </div>
+                            <a href="/" class="product__name">The Dandy chair</a>
+                            <span class="product__price">£250</span>
+                        </article>
+                    </li>
+
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image-wrapper">
+                                <img src="./img/dandy-chair-2.jpg" alt="The Silky Vase" class="product__image" width="305"
+                                    height="317">
+                            </div>
+                            <a href="/" class="product__name">The Dandy chair</a>
+                            <span class="product__price">£250</span>
+                        </article>
+                    </li>
+                </ul>
+
+                <div class="products__button-wrapper">
+                    <a href="/products.html" class="button button--grey">See collection</a>
+                </div>
             </div>
         </section>
-        <section class="catalog">
-            <div class="catalog__container">
-                <div class="catalog__filters">
-                    <div class="filters">
-                        <div class="filters__section">
-                            <h3 class="filters__subtitle">Category</h3>
-                            <ul class="list-reset filters__list">
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Furniture" class="filters__input">
-                                        <span class="filters__value">Furniture</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Homeware" class="filters__input">
-                                        <span class="filters__value">Homeware</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Sofas" class="filters__input">
-                                        <span class="filters__value">Sofas</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Homeware" class="filters__input">
-                                        <span class="filters__value">Homeware</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Light fittings"
-                                            class="filters__input">
-                                        <span class="filters__value">Light fittings</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Accessories"
-                                            class="filters__input">
-                                        <span class="filters__value">Accessories</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="filters__section">
-                            <h3 class="filters__subtitle">Price</h3>
-                            <ul class="list-reset filters__list">
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="0-100" class="filters__input">
-                                        <span class="filters__value">0 - 100</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="101-250" class="filters__input">
-                                        <span class="filters__value">101 - 250</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="250+" class="filters__input">
-                                        <span class="filters__value">250+</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="filters__section">
-                            <h3 class="filters__subtitle">Designer</h3>
-                            <ul class="list-reset filters__list">
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Robert Smith"
-                                            class="filters__input">
-                                        <span class="filters__value">Robert Smith</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Liam Gallagher"
-                                            class="filters__input">
-                                        <span class="filters__value">Liam Gallagher</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Biggie Smalls"
-                                            class="filters__input">
-                                        <span class="filters__value">Biggie Smalls</span>
-                                    </label>
-                                </li>
-                                <li class="filters__item">
-                                    <label class="filters__label">
-                                        <input type="checkbox" name="category" value="Thom Yorke"
-                                            class="filters__input">
-                                        <span class="filters__value">Thom Yorke</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalog__products">
-                    <ul class="list-reset products-grid catalog__products-grid">
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-1.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-2.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-3.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-4.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-5.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-6.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-7.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-8.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-9.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-1.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-2.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                        <li class="products-grid__item">
-                            <article class="product">
-                                <div class="product__image-wrapper">
-                                    <img src="./img/product-3.jpg" alt="The Silky Vase" class="product__image"
-                                        width="305" height="317">
-                                </div>
-                                <a href="/product.html" class="product__name">The Dandy chair</a>
-                                <span class="product__price">£250</span>
-                            </article>
-                        </li>
-                    </ul>
-                    <button class="button button--grey catalog__button">Load more</button>
-                </div>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="title title--medium title--center features__title">What makes our brand different</h2>
+                <ul class="list-reset features__list grid">
+                    <!-- Пункт 1 -->
+                    <li class="features__item features__item--grey">
+                        <img src="./img/features-1.svg" alt="Features Icon" width="24" height="24"
+                            class="features__icon">
+                        <h3 class="features__subtitle">Next day as standard</h3>
+                        <p class="features__text">Order before 3pm and get your order the next day as standard</p>
+                    </li>
+
+                    <!-- Пункт 2 -->
+                    <li class="features__item features__item--grey">
+                        <img src="./img/features-2.svg" alt="Features Icon" width="24" height="24"
+                            class="features__icon">
+                        <h3 class="features__subtitle">Made by true artisans</h3>
+                        <p class="features__text">Handmade crafted goods made with real passion and craftmanship</p>
+                    </li>
+
+                    <!-- Пункт 3 -->
+                    <li class="features__item features__item--grey">
+                        <img src="./img/features-3.svg" alt="Features Icon" width="24" height="24"
+                            class="features__icon">
+                        <h3 class="features__subtitle">Unbeatable prices</h3>
+                        <p class="features__text">For our materials and quality you won’t find better prices anywhere
+                        </p>
+                    </li>
+
+                    <!-- Пункт 4 -->
+                    <li class="features__item features__item--grey">
+                        <img src="./img/features-4.svg" alt="Features Icon" width="24" height="24"
+                            class="features__icon">
+                        <h3 class="features__subtitle">Recycled packaging</h3>
+                        <p class="features__text">We use 100% recycled packaging to ensure our footprint is manageable
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter__container container">
+                <h2 class="title title--xlarge title--center newsletter__title">Join the club and get the benefits</h2>
+                <p class="newsletter__description">Sign up for our newsletter and receive exclusive offers on new
+                    ranges, sales, pop up stores and more.</p>
+                <form action="#" method="POST" class="form newsletter__form">
+                    <input type="email" class="input-reset form__input" placeholder="your@email.com" required
+                        aria-label="Enter your email address">
+                    <button type="submit" class="button button--dark form__button">Sign up</button>
+                </form>
             </div>
         </section>
     </main>
