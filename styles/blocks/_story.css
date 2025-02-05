@@ -1,0 +1,37 @@
+.story {
+    padding: 60px 0;
+}
+
+.story__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px;
+    background-color: var(--dark-primary);
+}
+
+.story__title {
+    margin-bottom: 12px;
+    color: var(--white);
+}
+
+.story__descr {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.story__button {
+    margin-top: auto;
+}
+
+.story__image {
+    object-fit: cover;
+}
