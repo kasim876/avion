@@ -1,0 +1,25 @@
+.about-hero {
+    padding: 90px 0;
+}
+
+.about-hero__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-hero__title {
+    margin: 0;
+    margin-left: 50px;
+    max-width: 704px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    color: var(--dark-primary);
+}
+
+.about-hero__button {
+    flex-shrink: 0;
+}
