@@ -1,0 +1,15 @@
+.products-section {
+    padding: 60px 0;
+}
+
+.products-section__title {
+    margin-bottom: 25px;
+}
+
+.products-section__list {
+    margin-bottom: 35px;
+}
+
+.products-section__button-wrapper {
+    text-align: center;
+}
