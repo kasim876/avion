@@ -98,8 +98,11 @@
                     </div>
                     <div class="product-main__section">
                         <h2 class="product-main__subtitle">Quantitity</h2>
-                        <input type="number" value="1" min="1" aria-label="Select quantity"
-                            class="input-reset product-main__input">
+                        <div class="stepper">
+                            <button class="btn-reset stepper__button">-</button>
+                            <input type="number" name="quantity" id="" value="1" min="1" max="15" class="input-reset stepper__input">
+                            <button class="btn-reset stepper__button">+</button>
+                        </div>
                     </div>
 
                     <div class="product-main__actions">

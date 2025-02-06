@@ -6,6 +6,7 @@
 @import url('./blocks/_title.css');
 @import url('./blocks/_form.css');
 @import url('./blocks/_checkbox.css');
+@import url('./blocks/_stepper.css');
 @import url('./blocks/_product.css');
 @import url('./blocks/_filter.css');
 @import url('./blocks/_products-grid.css');
@@ -29,3 +30,6 @@
 
 /* product.html */
 @import url('./blocks/_product-main.css');
+
+/* cart.html */
+/* @import url('./blocks/_cart.css'); */
