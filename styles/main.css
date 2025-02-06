@@ -1,6 +1,7 @@
 @import url('./_settings.css');
 
 /* блоки */
+@import url('./blocks/_burger.css');
 @import url('./blocks/_social.css');
 @import url('./blocks/_btn.css');
 @import url('./blocks/_title.css');
