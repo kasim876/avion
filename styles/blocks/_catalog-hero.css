@@ -1,4 +1,4 @@
-.products-hero {
+.catalog-hero {
     background-image: url('../../img/products-hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@
     padding-bottom: 40px;
 }
 
-.products-hero__title {
+.catalog-hero__title {
     margin: 0;
     font-family: var(--second-family);
     font-weight: 400;
