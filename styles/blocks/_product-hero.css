@@ -1,30 +1,30 @@
-.product-main {
+.product-hero {
     padding: 50px 0;
     background-color: var(--light-grey);
 }
 
-.product-main__container {
+.product-hero__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.product-main__image-wrapper {
+.product-hero__image-wrapper {
     flex-shrink: 0;
     margin-right: 50px;
 }
 
-.product-main__image {
+.product-hero__image {
     object-fit: cover;
 }
 
-.product-main__header {
+.product-hero__header {
     border-bottom: 1px solid var(--border-grey);
     margin-bottom: 24px;
     padding-bottom: 30px;
 }
 
-.product-main__title {
+.product-hero__title {
     margin: 0;
     margin-bottom: 16px;
     font-family: var(--second-family);
@@ -33,16 +33,16 @@
     color: var(--dark-primary);
 }
 
-.product-main__price {
+.product-hero__price {
     font-size: 24px;
     color: var(--dark-primary);
 }
 
-.product-main__section {
+.product-hero__section {
     margin-bottom: 40px;
 }
 
-.product-main__subtitle {
+.product-hero__subtitle {
     margin: 0;
     margin-bottom: 14px;
     font-family: var(--second-family);
@@ -51,37 +51,37 @@
     color: var(--dark-primary);
 }
 
-.product-main__descr {
+.product-hero__descr {
     margin: 0;
     font-size: 16px;
     color: var(--dark-primary);
 }
 
-.product-main__specs {
+.product-hero__specs {
     display: flex;
     align-items: center;
 }
 
-.product-main__spec-item {
+.product-hero__spec-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
 }
 
-.product-main__spec-item:not(:last-child) {
+.product-hero__spec-item:not(:last-child) {
     border-right: 1px solid var(--border-grey);
     margin-right: 50px;
     padding-right: 50px;
 }
 
-.product-main__spec-label {
+.product-hero__spec-label {
     font-family: var(--second-family);
     font-size: 14px;
     color: var(--dark-primary);
 }
 
-.product-main__input {
+.product-hero__input {
     width: 122px;
     height: 46px;
     font-size: 16px;
@@ -90,7 +90,7 @@
     background-color: var(--white);
 }
 
-.product-main__actions {
+.product-hero__actions {
     display: flex;
     gap: 16px;
 }

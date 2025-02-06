@@ -29,7 +29,7 @@
 @import url('./blocks/_catalog.css');
 
 /* product.html */
-@import url('./blocks/_product-main.css');
+@import url('./blocks/_product-hero.css');
 
 /* cart.html */
 @import url('./blocks/_cart.css');
