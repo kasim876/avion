@@ -18,6 +18,15 @@
     height: 100%;
 }
 
+.stepper__button:focus {
+    outline: none;
+}
+
+.stepper__button:focus-visible {
+    outline: 2px dashed currentColor;
+    outline-offset: 2px;
+}
+
 .stepper__input {
     width: 30%;
     height: 100%;

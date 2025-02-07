@@ -6,7 +6,8 @@
 }
 
 .checkbox__input {
-    display: none;
+    position: absolute;
+    opacity: 0;
 }
 
 .checkbox__custom {
@@ -24,17 +25,16 @@
     transition: background-color 0.3s, border-color 0.3s;
 }
 
+.checkbox__input:focus + .checkbox__custom {
+    outline: 2px dashed currentColor;
+    outline-offset: 2px;
+}
+
 .checkbox__input:checked + .checkbox__custom {
     background-color: var(--primary);
     border-color: var(--primary);
 }
 
-/* Показ галочки при активации */
-/* .checkbox__input:checked~.checkbox__custom::after {
-    display: block;
-} */
-
-/* Элемент checkbox__label */
 .checkbox__label {
     font-size: 16px;
     line-height: 150%;

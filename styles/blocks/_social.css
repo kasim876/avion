@@ -2,3 +2,8 @@
     display: flex;
     gap: 24px;
 }
+
+.social__link {
+    display: flex;
+    color: var(--white);
+}
