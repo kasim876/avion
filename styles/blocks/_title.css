@@ -25,3 +25,17 @@
 .title--xlarge {
     font-size: 36px;
 }
+
+@media (max-width: 768px) {
+    .title--medium {
+        font-size: 20px;
+    }
+
+    .title--large {
+        font-size: 24px;
+    }
+
+    .title--xlarge {
+        font-size: 28px;
+    }
+}
