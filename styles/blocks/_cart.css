@@ -75,6 +75,10 @@
     color: var(--dark-primary);
 }
 
+.cart__mobile-stepper {
+    display: none;
+}
+
 .cart__total {
     font-size: 18px;
     line-height: 150%;
@@ -104,4 +108,32 @@
     font-size: 24px;
     line-height: 140%;
     color: var(--dark-primary);
+}
+
+@media (max-width: 1024px) {
+    .cart__content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart__content {
+        padding: 15px;
+    }
+
+    .cart__col--product {
+        grid-column: 12 span;
+    }
+    
+    .cart__col--quantity {
+        display: none;
+    }
+
+    .cart__col--total {
+        display: none;
+    }
+
+    .cart__mobile-stepper {
+        display: block;
+    }
 }
