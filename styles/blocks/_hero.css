@@ -45,3 +45,32 @@
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width: 1024px) {
+    .hero__image-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__content {
+        padding: 40px 24px 24px;
+    }
+    
+    .hero__title {
+        order: 1;
+    }
+    
+    
+    .hero__button {
+        margin: 0;
+        order: 3;
+        width: 100%;
+    }
+
+    .hero__description {
+        margin-top: 0;
+        margin-bottom: 40px;
+        order: 2;
+    }
+}
