@@ -55,3 +55,18 @@
     padding: 20px;
     background-color: var(--light-grey);
 }
+
+@media (max-width: 768px) {
+    .header__top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header__actions {
+        display: none;
+    }
+
+    .header__bottom {
+        display: none;
+    }
+}
