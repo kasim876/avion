@@ -12,7 +12,7 @@
 }
 
 .product-card__image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -36,4 +36,14 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--dark-primary);
+}
+
+@media (max-width: 480px) {
+    .product-card__name {
+        font-size: 16px;
+    }
+
+    .product-card__price {
+        font-size: 14px;
+    }
 }
