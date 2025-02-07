@@ -39,3 +39,28 @@
     line-height: 150%;
     color: var(--dark-primary);
 }
+
+@media (max-width: 1024px) {
+    .features__item {
+        grid-column: 6 span;
+    }
+}
+
+@media (max-width: 768px) {
+    .features__title {
+        text-align: left;
+    }
+    
+    .features__item {
+        align-items: center;
+        grid-column: 12 span;
+    }
+
+    .features__subtitle {
+        font-size: 16px;
+    }
+
+    .features__text {
+        font-size: 14px;
+    }
+}
