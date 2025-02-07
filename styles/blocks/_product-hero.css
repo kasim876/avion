@@ -5,17 +5,22 @@
 
 .product-hero__container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .product-hero__image-wrapper {
-    flex-shrink: 0;
-    margin-right: 50px;
+    width: 50%;
 }
 
 .product-hero__image {
+    width: 100%;
     object-fit: cover;
+}
+
+.product-hero__info {
+    width: 50%;
 }
 
 .product-hero__header {
@@ -93,4 +98,15 @@
 .product-hero__actions {
     display: flex;
     gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .product-hero__container {
+        flex-direction: column;
+    }
+
+    .product-hero__image-wrapper,
+    .product-hero__info {
+        width: 100%;
+    }
 }
