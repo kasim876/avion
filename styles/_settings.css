@@ -81,7 +81,8 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
 }
   
 .container {
