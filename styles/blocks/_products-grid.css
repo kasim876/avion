@@ -11,3 +11,13 @@
 .products-grid__item--large {
     grid-column: 6 span;
 }
+
+@media (max-width: 768px) {
+    .products-grid__item {
+        grid-column: 6 span;
+    }
+
+    .products-grid__item--large {
+        grid-column: 12 span;
+    }
+}
